@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1</title>
+    <style>
+        .container {
+            max-width: 300px;
+            margin: auto;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aliceblue;
+            padding: 20px;
+            border-radius: 10px;
+
+
+        }
+
+        input {
+            width: 100%;
+            display: block;
+            padding: 5px;
+            box-sizing: border-box;
+            margin-top: 10px;
+        }
+
+        button {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Triângulo</h1>
+        <input id="ladoA" name="lado_do_triangulo" type="number" placeholder="Primeiro Lado">
+        <input id="ladoB" name="lado_do_triangulo" type="number" placeholder="Segundo Lado">
+        <input id="ladoC" name="lado_do_triangulo" type="number" placeholder="Terceiro Lado">
+        <button onclick="verificarTriangulo()">Verificar</button>
+
+        <div id="resultado">
+
+
+        </div>
+
+    </div>
+
+
+    <script src="Q1.js"></script>
+</body>
+
+</html>
